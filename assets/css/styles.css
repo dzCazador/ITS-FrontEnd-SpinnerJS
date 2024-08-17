@@ -1,0 +1,42 @@
+button {
+background-color: #3498db;  /* Color de fondo azul */
+border: none;              /* Sin borde */
+color: white;              /* Color del texto blanco */
+padding: 12px 24px;        /* Relleno alrededor del texto */
+text-align: center;        /* Alinear el texto al centro */
+text-decoration: none;     /* Sin subrayado en el texto */
+display: inline-block;     /* Mostrar como un bloque en línea */
+font-size: 16px;           /* Tamaño de fuente */
+margin: 8px 4px;           /* Margen alrededor del botón */
+cursor: pointer;           /* Cursor de mano al pasar sobre el botón */
+border-radius: 8px;        /* Esquinas redondeadas */
+transition: background-color 0.3s ease; /* Animación suave en el cambio de color */
+}
+
+button:hover {
+background-color: #2980b9;  /* Cambiar color al pasar el mouse */
+}
+
+button:active {
+background-color: #1c5985;  /* Cambiar color cuando el botón es presionado */
+transform: scale(0.98);     /* Efecto de presión */
+}
+
+
+button:disabled{
+    background-color: #ccc; /* Cambiar color al desactivar el botón */
+    cursor: not-allowed; /* Cambiar cursor al desactivar el botón */
+}
+
+
+button:focus {
+outline: none;              /* Quitar el borde de enfoque por defecto */
+box-shadow: 0 0 5px #3498db; /* Sombra alrededor del botón al enfocarlo */
+}
+
+
+img {
+width: 300px;
+transition: transform 0.5s ease-in-out;
+padding: 80px;
+}
